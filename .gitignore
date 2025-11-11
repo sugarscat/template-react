@@ -14,16 +14,16 @@ dist-ssr
 stats.html
 
 # Editor directories and files
-.vscode/*
+.vscode/**
 !.vscode/extensions.json
-.idea
+.idea/**
+!.idea/icon.svg
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.idea/**
 
 # Npm
 pnpm-lock.yaml
