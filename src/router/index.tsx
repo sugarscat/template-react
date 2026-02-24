@@ -1,13 +1,11 @@
-import { lazy } from "react";
+import { Home } from "@/router/lazy.ts";
 import { createBrowserRouter } from "react-router-dom";
 
-const Home = lazy(() => import("@/pages/home"));
-
-const router = createBrowserRouter([
+export const routes = [
   {
     path: "/",
     element: <Home />,
   },
-]);
+];
 
-export default router;
+export default createBrowserRouter(routes);

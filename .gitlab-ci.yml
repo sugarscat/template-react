@@ -16,7 +16,6 @@ build:
   artifacts:
     paths:
       - dist
-    expire_in: 1 hour
   rules:
     - when: never # 要启用在 'main' 分支推送时运行，请注释掉此行。
     - if: $CI_COMMIT_BRANCH == "main"
